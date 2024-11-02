@@ -1,0 +1,31 @@
+{
+  "name": "viz",
+  "version": "1.0.0",
+  "description": "A PWA data visualization application",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "parcel src/index.html --no-cache",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gr8gatsby/viz.git"
+  },
+  "keywords": [
+    "data",
+    "visualization"
+  ],
+  "author": "Kevin Hill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gr8gatsby/viz/issues"
+  },
+  "homepage": "https://github.com/gr8gatsby/viz#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
