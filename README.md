@@ -59,7 +59,7 @@ The application follows a **component-based architecture**, emphasizing modulari
 ### Project Structure
 
 ```
-/project-root
+touch ./viz
 │
 ├── /src
 │   ├── /assets
