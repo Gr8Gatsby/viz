@@ -16,14 +16,12 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '22'  # Match Node.js version with local environment
+          node-version: '22'  # Match your Node.js version
 
       - name: Install dependencies
         run: npm install
 
       - name: Build project
-        env:
-          PARCEL_WORKERS: 0   # Disable Parcel's cache to avoid serialization issues
         run: npm run build
 
       - name: Deploy to GitHub Pages

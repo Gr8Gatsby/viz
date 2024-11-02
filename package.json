@@ -7,8 +7,9 @@
     "test": "tests"
   },
   "scripts": {
-    "start": "parcel src/index.html --no-cache",
-    "build": "parcel build src/index.html --public-url ./"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,6 @@
   },
   "homepage": "https://github.com/gr8gatsby/viz#readme",
   "devDependencies": {
-    "parcel": "^2.12.0"
+    "vite": "^5.4.10"
   }
 }
